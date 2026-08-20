@@ -1,5 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
-import { ExternalLink, Mail, User } from "lucide-react";
+import { ExternalLink, Mail } from "lucide-react";
+import profileAsset from "@/assets/profile.png.asset.json";
 import { SiteNav } from "@/components/site/SiteNav";
 import { Section } from "@/components/site/Section";
 import { Reveal } from "@/components/site/Reveal";
