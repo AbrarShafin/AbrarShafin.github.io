@@ -76,7 +76,7 @@ function Index() {
 
                 <div className="mt-7 flex flex-wrap gap-3">
                   <a href={profile.cvUrl} className={btnSolid}>
-                    View CV
+                    Resume
                   </a>
                   <a href="#contact" className={btnOutline}>
                     Contact Me
