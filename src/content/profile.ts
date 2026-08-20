@@ -9,7 +9,7 @@ export const profile = {
   intro:
     "I'm an Electrical and Electronic Engineering graduate from the University of Rajshahi, working at the intersection of machine learning and photovoltaic device physics. My research applies explainable AI and simulation-driven modeling to optimize next-generation solar cell architectures.",
   email: "kazishafin09@gmail.com",
-  cvUrl: "https://drive.google.com/uc?export=download&id=1UT-_WCxVWOsjQX3KJXZloPq3X6nh-ach",
+  cvUrl: "https://drive.google.com/file/d/1UT-_WCxVWOsjQX3KJXZloPq3X6nh-ach/view?usp=sharing",
 };
 
 export const profileLinks = [
