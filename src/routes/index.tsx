@@ -88,13 +88,13 @@ function Index() {
                 </div>
               </div>
 
-              <div
-                className="flex size-32 shrink-0 items-center justify-center overflow-hidden rounded-full border border-border bg-surface sm:size-40"
-                role="img"
-                aria-label="Profile photo of Kazi Abrar Shafin (placeholder)"
-              >
-                <User className="size-10 text-muted-foreground" aria-hidden />
-              </div>
+              <img
+                src={profileAsset.url}
+                alt="Profile photo of Kazi Abrar Shafin"
+                className="size-32 shrink-0 rounded-full border border-border object-cover sm:size-40"
+                width={160}
+                height={160}
+              />
             </div>
           </Reveal>
         </section>
