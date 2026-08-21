@@ -1,6 +1,6 @@
 # Shafin Research Hub
 
-Build a personal academic research portfolio website for a recent Electrical and Electronic Engineering graduate applying to Master's/PhD programs. The site must look like the personal website of a young academic researcher — NOT a startup landing page, NOT a generic software developer portfolio. Target audience: professors, PhD admissions committees, and potential research supervisors reviewing this site in under 60 seconds.
+Build personal academic research portfolio website for a recent Electrical and Electronic Engineering graduate applying to Master's/PhD programs. The site must look like the personal website of a young academic researcher — NOT a startup landing page, NOT a generic software developer portfolio. Target audience: professors, PhD admissions committees, and potential research supervisors reviewing this site in under 60 seconds.
 
 ## VISUAL DESIGN (strict requirements)
 
