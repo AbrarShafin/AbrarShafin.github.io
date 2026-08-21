@@ -25,24 +25,36 @@ jobs:
           bun-version: latest
 
       - name: Install dependencies
-        run: bun install --frozen-lockfile
+        run: bun install
 
       - name: Build static site
         env:
-          # For a user/org site (username.github.io) leave this as "/".
-          # For a project site (username.github.io/repo) use "/repo/".
+          # User/org site (username.github.io) -> "/"
+          # Project site (username.github.io/repo) -> "/repo/"
           BASE_PATH: "/"
-          NITRO_PRESET: static
         run: bun run build:static
 
+      - name: Copy hosted assets (resume, photos) into the static output
+        env:
+          ASSET_ORIGIN: https://kaziabrarshafin.lovable.app
+        run: |
+          for f in src/assets/*.asset.json; do
+            [ -e "$f" ] || continue
+            url=$(node -p "require('./$f').url")
+            out="dist/client${url}"
+            mkdir -p "$(dirname "$out")"
+            curl -fsSL "${ASSET_ORIGIN}${url}" -o "$out"
+            echo "fetched $url"
+          done
+
       - name: Add .nojekyll
-        run: touch dist/.nojekyll
+        run: touch dist/client/.nojekyll
 
       - uses: actions/configure-pages@v5
 
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: dist
+          path: dist/client
 
   deploy:
     needs: build
