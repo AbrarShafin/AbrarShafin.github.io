@@ -7,7 +7,7 @@ export default defineConfig({
   vite: {
     base: process.env["BASE_PATH"] ?? "/",
   },
-  nitro: { preset: "static" },
+  nitro: false,
   tanstackStart: {
     server: { entry: "server" },
     prerender: {
