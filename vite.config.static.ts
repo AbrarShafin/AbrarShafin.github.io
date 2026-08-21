@@ -12,7 +12,7 @@ export default defineConfig({
     server: { entry: "server" },
     prerender: {
       enabled: true,
-      crawlLinks: true,
+      crawlLinks: false,
     },
     pages: [{ path: "/", prerender: { enabled: true } }],
   },
