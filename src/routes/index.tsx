@@ -134,7 +134,13 @@ function Index() {
                 {entry.links && (
                   <div className="mt-3 flex flex-wrap gap-x-5 gap-y-1">
                     {entry.links.map((l) => (
-                      <a key={l.label} href={l.href} className="link-accent text-sm">
+                      <a
+                        key={l.label}
+                        href={l.href}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="link-accent text-sm"
+                      >
                         {l.label}
                       </a>
                     ))}
