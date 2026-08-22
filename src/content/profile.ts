@@ -25,9 +25,9 @@ export const navItems = [
   { label: "About", href: "#about" },
   { label: "Research", href: "#research" },
   { label: "Publications", href: "#publications" },
+  { label: "Education", href: "#education" },
   { label: "Thesis", href: "#thesis" },
   { label: "Skills", href: "#skills" },
-  { label: "Education", href: "#education" },
   { label: "Contact", href: "#contact" },
 ];
 

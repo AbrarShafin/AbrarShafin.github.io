@@ -209,6 +209,26 @@ function Index() {
           </ol>
         </Section>
 
+        {/* EDUCATION */}
+        <Section id="education" title="Education">
+          <div className="space-y-7">
+            {education.map((e) => (
+              <article key={e.institution}>
+                <div className="flex flex-wrap items-baseline justify-between gap-x-4">
+                  <h3 className="font-serif text-base font-semibold">{e.institution}</h3>
+                  <span className="text-sm text-muted-foreground">{e.dates}</span>
+                </div>
+                <p className="mt-1 text-sm text-foreground/80">{e.degree}</p>
+                <ul className="mt-1.5 space-y-0.5 text-sm text-muted-foreground">
+                  {e.details.map((d) => (
+                    <li key={d}>{d}</li>
+                  ))}
+                </ul>
+              </article>
+            ))}
+          </div>
+        </Section>
+
         {/* THESIS */}
         <Section id="thesis" title="Thesis">
           <div className="prose-measure">
@@ -238,26 +258,6 @@ function Index() {
               </div>
             ))}
           </dl>
-        </Section>
-
-        {/* EDUCATION */}
-        <Section id="education" title="Education">
-          <div className="space-y-7">
-            {education.map((e) => (
-              <article key={e.institution}>
-                <div className="flex flex-wrap items-baseline justify-between gap-x-4">
-                  <h3 className="font-serif text-base font-semibold">{e.institution}</h3>
-                  <span className="text-sm text-muted-foreground">{e.dates}</span>
-                </div>
-                <p className="mt-1 text-sm text-foreground/80">{e.degree}</p>
-                <ul className="mt-1.5 space-y-0.5 text-sm text-muted-foreground">
-                  {e.details.map((d) => (
-                    <li key={d}>{d}</li>
-                  ))}
-                </ul>
-              </article>
-            ))}
-          </div>
         </Section>
 
         {/* LEADERSHIP */}
