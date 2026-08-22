@@ -123,7 +123,7 @@ export const thesis = {
   abstract:
     "Achieving superior light harvesting in stacked-absorber heterojunction solar cells requires precise electronic and optical alignment between adjacent absorber layers. This work integrates machine-learning models with SCAPS-1D device simulations to identify optimal absorber-layer properties and guide rational design of stacked architectures. Explainable AI (SHAP) analysis revealed key design rules governing density of states, carrier concentration, and band alignment. Using these ML-derived criteria, optimized device structures incorporating ZnSnN2, CdTe, and Cu3PSe4 as top absorbers with MoTe2 as bottom absorber achieved simulated power-conversion efficiencies exceeding 39%, surpassing single-junction performance limits.",
   note: "This thesis research was later published as a first-author paper in the Journal of Physics D: Applied Physics (see Publications).",
-  pdfUrl: "#",
+  pdfUrl: "https://drive.google.com/file/d/1emqjtqawOpij6NGOoGu8sa4HfYs_EXkh/view?usp=sharing",
 };
 
 export const skills = [
