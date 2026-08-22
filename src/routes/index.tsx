@@ -91,9 +91,9 @@ function Index() {
               <img
                 src={profileAsset.url}
                 alt="Profile photo of Kazi Abrar Shafin"
-                className="size-28 shrink-0 rounded-full border border-border object-cover sm:size-36"
-                width={144}
-                height={144}
+                className="size-32 shrink-0 rounded-full border border-border object-cover sm:size-40"
+                width={160}
+                height={160}
               />
             </div>
           </Reveal>
