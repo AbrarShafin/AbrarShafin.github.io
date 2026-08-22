@@ -70,8 +70,14 @@ export const experience: ExperienceEntry[] = [
       "Hands-on training: Spin Coating, Raman Spectroscopy, PL Spectroscopy, Mist CVD, MoS2 Fabrication, SEM, Photolithography, Electron Beam Deposition",
     ],
     links: [
-      { label: "Program Report", href: "#" },
-      { label: "Official Documents", href: "#" },
+      {
+        label: "Program Report",
+        href: "https://drive.google.com/file/d/1DvqemLDN1Rb5iGs1DHsFFGMD5RYNnVmn/view?usp=sharing",
+      },
+      {
+        label: "Official Documents",
+        href: "https://drive.google.com/drive/folders/1plfcVt2IRLHO4uhvZPxOe0l9SVzCk7IN?usp=sharing",
+      },
     ],
   },
 ];
