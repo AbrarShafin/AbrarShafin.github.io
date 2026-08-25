@@ -101,7 +101,18 @@ function Index() {
 
         {/* ABOUT */}
         <Section id="about" title="About">
-          <p className="prose-measure leading-relaxed text-muted-foreground">{aboutText}</p>
+          <p className="prose-measure leading-relaxed text-muted-foreground">
+            {aboutText.split("see Publications").map((part, i) => (
+              <span key={i}>
+                {part}
+                {i === 0 && (
+                  <a href="#publications" className="link-accent">
+                    see Publications
+                  </a>
+                )}
+              </span>
+            ))}
+          </p>
         </Section>
 
         {/* RESEARCH INTERESTS + EXPERIENCE */}
