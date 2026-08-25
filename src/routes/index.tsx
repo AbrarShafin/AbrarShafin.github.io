@@ -149,9 +149,19 @@ function Index() {
                   <p className="mt-1 text-sm italic text-muted-foreground">{entry.note}</p>
                 )}
                 <ul className="mt-3 list-disc space-y-1.5 pl-5 text-sm leading-relaxed text-muted-foreground marker:text-accent/60">
-                  {entry.bullets.map((b) => (
-                    <li key={b}>{b}</li>
-                  ))}
+                  {entry.bullets.map((b) => {
+                    const parts = b.split("(see Publications)");
+                    if (parts.length === 1) return <li key={b}>{b}</li>;
+                    return (
+                      <li key={b}>
+                        {parts[0]}
+                        <a href="#publications" className="link-accent">
+                          (see Publications)
+                        </a>
+                        {parts[1]}
+                      </li>
+                    );
+                  })}
                 </ul>
                 {entry.links && (
                   <div className="mt-3 flex flex-wrap gap-x-5 gap-y-1">

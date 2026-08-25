@@ -62,7 +62,7 @@ export const experience: ExperienceEntry[] = [
       "Photonic & Advanced Materials Laboratory, Dept. of EEE, University of Rajshahi",
     note: "Supervisor: Dr. Jaker Hossain",
     bullets: [
-      "Built and validated ML models (feature importance via SHAP) against SCAPS-1D simulation outputs across 500+ device configurations (replace with real figure if applicable)",
+      "Built and validated ML models (feature importance via SHAP) against SCAPS-1D simulation outputs across 24 device configurations",
       "Derived XAI-based design rules (density of states, carrier concentration, band alignment) that generalize across multiple stacked-absorber material combinations, rather than being specific to one device",
       "Applied these rules to a double-absorber-layer design achieving simulated efficiency >39%, published as first-author paper (see Publications)",
     ],
