@@ -7,7 +7,8 @@ export const profile = {
   name: "Kazi Abrar Shafin",
   identity: "Machine Learning Researcher — Semiconductor Device Optimization",
   intro:
-    "I'm an Electrical and Electronic Engineering graduate from the University of Rajshahi, working at the intersection of machine learning and photovoltaic device physics. My research applies explainable AI and simulation-driven modeling to optimize next-generation solar cell architectures.",
+    "Electrical & Electronic Engineering graduate (University of Rajshahi) working at the intersection of machine learning and photovoltaic device physics. My research applies explainable AI and physics-based simulation to optimize next-generation solar cell architectures. Currently seeking Fall 2027 PhD positions in ML-driven materials and device optimization.",
+
   email: "kazishafin09@gmail.com",
   cvUrl: "https://drive.google.com/file/d/1UT-_WCxVWOsjQX3KJXZloPq3X6nh-ach/view?usp=drive_link",
 };
