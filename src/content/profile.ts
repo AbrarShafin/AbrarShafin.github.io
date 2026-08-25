@@ -38,6 +38,13 @@ export const aboutText =
 export const researchInterests =
   "My research centers on applying machine learning — particularly explainable AI methods like SHAP — to accelerate and interpret the design of optoelectronic devices. I'm interested in combining physics-based simulation with data-driven optimization to identify material and structural parameters that push device performance beyond conventional limits, with a current focus on multi-junction and stacked-absorber solar cell architectures.";
 
+export const researchTags = [
+  "Explainable AI",
+  "Device Simulation",
+  "Materials Informatics",
+  "Multi-junction PV",
+];
+
 export type ExperienceEntry = {
   title: string;
   dates: string;

@@ -120,6 +120,16 @@ function Index() {
           <p className="prose-measure leading-relaxed text-muted-foreground">
             {researchInterests}
           </p>
+          <div className="mt-5 flex flex-wrap gap-2">
+            {researchTags.map((tag) => (
+              <span
+                key={tag}
+                className="rounded-full border border-accent/40 bg-accent/10 px-3 py-1 text-sm font-medium text-accent"
+              >
+                {tag}
+              </span>
+            ))}
+          </div>
         </Section>
 
         <Section id="experience" title="Research Experience">
