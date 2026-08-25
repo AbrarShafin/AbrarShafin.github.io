@@ -114,6 +114,14 @@ export const publications: Publication[] = [
   },
   {
     title:
+      "Machine learning-assisted design and explainable optimization of high-performance CdSnP₂-based integrated solar cell–photodetectors",
+    authors: ["M. A. H. Pappu", "K. A. Shafin", "M. Hossain", "J. Hossain"],
+    boldAuthor: "K. A. Shafin",
+    venue: "Submitted to Next Materials (Under Review)",
+    status: "Under Review",
+  },
+  {
+    title:
       "Mapping the Mind at Rest: Machine-Learning Identification of Alzheimer's and Frontotemporal Dementia through EEG Microstate Parameters",
     authors: ["K. A. Shafin", "M. M. Imtiaz", "R. A. Nahiyan", "R. Rahman", "M.R.C. Mahdy"],
     boldAuthor: "K. A. Shafin",
