@@ -64,7 +64,7 @@ export const experience: ExperienceEntry[] = [
     bullets: [
       "Built and validated ML models (feature importance via SHAP) against SCAPS-1D simulation outputs across 24 device configurations",
       "Derived XAI-based design rules (density of states, carrier concentration, band alignment) that generalize across multiple stacked-absorber material combinations, rather than being specific to one device",
-      "Applied these rules to a double-absorber-layer design achieving simulated efficiency >39%, published as first-author paper (see Publications)",
+      "Applied these rules to a double-absorber-layer design achieving simulated efficiency >39% (see Publications)",
     ],
   },
   {
