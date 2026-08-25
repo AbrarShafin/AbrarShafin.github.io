@@ -14,6 +14,7 @@ import {
   profile,
   publications,
   researchInterests,
+  researchTags,
   skills,
   thesis,
 } from "@/content/profile";
