@@ -87,6 +87,27 @@ function Index() {
                 <div className="mt-7">
                   <ProfileLinks />
                 </div>
+
+                <div className="mt-10 grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-4">
+                  {[
+                    { value: "3.77", caption: "CGPA / 4.00 · 2nd Merit Position" },
+                    { value: "1", caption: "First-Author Publication · Journal of Physics D: Applied Physics" },
+                    { value: "Japan", caption: "International Research · Ritsumeikan University" },
+                    { value: "Fall 2027", caption: "PhD Applicant · ML-Driven Device Physics" },
+                  ].map((stat) => (
+                    <div
+                      key={stat.value}
+                      className="rounded-sm border border-rule px-4 py-4"
+                    >
+                      <div className="font-serif text-2xl font-semibold tracking-tight sm:text-3xl">
+                        {stat.value}
+                      </div>
+                      <p className="mt-1 text-sm leading-snug text-muted-foreground">
+                        {stat.caption}
+                      </p>
+                    </div>
+                  ))}
+                </div>
               </div>
 
               <img
