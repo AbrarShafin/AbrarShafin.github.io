@@ -67,7 +67,7 @@ function Index() {
         {/* HOME */}
         <section id="home" className="scroll-mt-24 py-14 sm:py-20">
           <Reveal>
-            <div className="flex flex-col-reverse items-start gap-8 sm:flex-row sm:items-center sm:justify-between">
+            <div className="flex flex-col-reverse items-start gap-8 sm:flex-row sm:items-start sm:justify-between">
               <div className="flex-1">
                 <h1 className="text-3xl font-semibold tracking-tight sm:text-4xl">
                   {profile.name}
@@ -87,27 +87,6 @@ function Index() {
                 <div className="mt-7">
                   <ProfileLinks />
                 </div>
-
-                <div className="mt-10 grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-4">
-                  {[
-                    { value: "3.77", caption: "CGPA / 4.00 · 2nd Merit Position" },
-                    { value: "1", caption: "First-Author Publication · Journal of Physics D: Applied Physics" },
-                    { value: "Japan", caption: "International Research · Ritsumeikan University" },
-                    { value: "Fall 2027", caption: "PhD Applicant · ML-Driven Device Physics" },
-                  ].map((stat) => (
-                    <div
-                      key={stat.value}
-                      className="rounded-sm border border-rule px-4 py-4"
-                    >
-                      <div className="font-serif text-2xl font-semibold tracking-tight sm:text-3xl">
-                        {stat.value}
-                      </div>
-                      <p className="mt-1 text-sm leading-snug text-muted-foreground">
-                        {stat.caption}
-                      </p>
-                    </div>
-                  ))}
-                </div>
               </div>
 
               <img
@@ -117,6 +96,27 @@ function Index() {
                 width={160}
                 height={160}
               />
+            </div>
+
+            <div className="mt-10 grid grid-cols-2 gap-3 sm:grid-cols-4">
+              {[
+                { value: "3.77", caption: "CGPA / 4.00 · 2nd Merit Position" },
+                { value: "1", caption: "First-Author Publication · Journal of Physics D: Applied Physics" },
+                { value: "Japan", caption: "International Research · Ritsumeikan University" },
+                { value: "Fall 2027", caption: "PhD Applicant · ML-Driven Device Physics" },
+              ].map((stat) => (
+                <div
+                  key={stat.value}
+                  className="rounded-sm border border-rule px-4 py-4"
+                >
+                  <div className="font-serif text-2xl font-semibold tracking-tight sm:text-3xl">
+                    {stat.value}
+                  </div>
+                  <p className="mt-1 text-xs leading-snug text-muted-foreground sm:text-sm">
+                    {stat.caption}
+                  </p>
+                </div>
+              ))}
             </div>
           </Reveal>
         </section>
