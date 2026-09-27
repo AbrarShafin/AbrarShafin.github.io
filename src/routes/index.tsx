@@ -101,7 +101,7 @@ function Index() {
             <div className="mt-10 grid grid-cols-2 gap-3 sm:grid-cols-4">
               {[
                 { value: "3.77", caption: "B.Sc. CGPA / 4.00 · 2nd Merit Position" },
-                { value: "1", caption: "First-Author Publication · Journal of Physics D: Applied Physics" },
+                { value: "1", caption: "First-Author Publication\nJournal of Physics D: Applied Physics" },
                 { value: "Japan", caption: "International Research · Ritsumeikan University" },
                 { value: "Fall 2027", caption: "PhD Applicant · ML-Driven Device Physics" },
               ].map((stat) => (
@@ -112,7 +112,7 @@ function Index() {
                   <div className="font-serif text-2xl font-semibold tracking-tight sm:text-3xl">
                     {stat.value}
                   </div>
-                  <p className="mt-1 text-xs leading-snug text-muted-foreground sm:text-sm">
+                  <p className="mt-1 whitespace-pre-line text-xs leading-snug text-muted-foreground sm:text-sm">
                     {stat.caption}
                   </p>
                 </div>
