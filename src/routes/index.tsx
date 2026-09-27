@@ -100,9 +100,9 @@ function Index() {
 
             <div className="mt-10 grid grid-cols-2 gap-3 sm:grid-cols-4">
               {[
-                { value: "3.77", caption: "B.Sc. CGPA / 4.00 · 2nd Merit Position" },
+                { value: "3.77", caption: "B.Sc. CGPA / 4.00\n2nd Merit Position" },
                 { value: "1", caption: "First-Author Publication\nJournal of Physics D: Applied Physics" },
-                { value: "Japan", caption: "International Research · Ritsumeikan University" },
+                { value: "Japan", caption: "International Research Experience\nRitsumeikan University" },
                 { value: "Fall 2027", caption: "PhD Applicant · ML-Driven Device Physics" },
               ].map((stat) => (
                 <div
