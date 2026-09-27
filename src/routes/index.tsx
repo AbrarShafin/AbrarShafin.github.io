@@ -63,7 +63,7 @@ function Index() {
     <div className="min-h-screen">
       <SiteNav />
 
-      <main className="mx-auto max-w-3xl px-5 pb-4 sm:px-6">
+      <main className="mx-auto max-w-4xl px-5 pb-4 sm:px-6">
         {/* HOME */}
         <section id="home" className="scroll-mt-24 py-14 sm:py-20">
           <Reveal>
@@ -341,7 +341,7 @@ function Index() {
       </main>
 
       <footer className="border-t border-rule">
-        <div className="mx-auto max-w-3xl px-5 py-8 text-sm text-muted-foreground sm:px-6">
+        <div className="mx-auto max-w-4xl px-5 py-8 text-sm text-muted-foreground sm:px-6">
           © 2026 Kazi Abrar Shafin
         </div>
       </footer>
