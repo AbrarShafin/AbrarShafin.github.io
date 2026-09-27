@@ -95,6 +95,13 @@
   html {
     scroll-behavior: smooth;
     scroll-padding-top: 5rem;
+    font-size: 17px;
+  }
+
+  @media (min-width: 640px) {
+    html {
+      font-size: 18.5px;
+    }
   }
 
   body {

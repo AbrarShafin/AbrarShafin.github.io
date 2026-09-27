@@ -15,7 +15,7 @@ export function SiteNav() {
     <header className="sticky top-0 z-50 border-b border-rule bg-background/90 backdrop-blur">
       <nav
         aria-label="Primary"
-        className="mx-auto flex max-w-3xl items-center justify-between px-5 py-3 sm:px-6"
+        className="mx-auto flex max-w-4xl items-center justify-between px-5 py-3 sm:px-6"
       >
         <a
           href="#home"
